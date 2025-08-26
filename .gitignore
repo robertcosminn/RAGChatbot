@@ -143,6 +143,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.env.example
 
 # Spyder project settings
 .spyderproject
@@ -205,3 +206,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Data & vector store (keep placeholder only)
+data/chroma/*
+!data/chroma/.gitkeep
+config/settings.example.yaml
+config/settings.yaml
