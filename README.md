@@ -4,7 +4,6 @@ A minimal **RAG** chatbot that recommends **exactly one book** based on a natura
 After recommending, it **calls a local tool** `get_summary_by_title(title)` to include the **full summary**
 for that exact title. The UI is built with **Streamlit**.
 
-> This project intentionally avoids heavy frameworks to teach core RAG concepts: ingestion, retrieval, prompting, and tool-calling.
 
 ---
 
@@ -19,7 +18,7 @@ for that exact title. The UI is built with **Streamlit**.
 
 ## 🗂 Project Layout
 
-smart-librarian/
+RAGChatbot/
 ├─ app/
 │ ├─ ui/
 │ │ └─ streamlit_app.py
