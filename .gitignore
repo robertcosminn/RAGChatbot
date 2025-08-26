@@ -143,7 +143,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.env.example
 
 # Spyder project settings
 .spyderproject
@@ -226,10 +225,8 @@ venv/
 .idea/
 
 # Streamlit
-.streamlit/
 
 # Data & vector store (keep placeholder only)
 data/chroma/*
 !data/chroma/.gitkeep
-config/settings.example.yaml
 config/settings.yaml

@@ -1,0 +1,11 @@
+
+# Copy to settings.yaml to override defaults
+openai:
+  embedding_model: text-embedding-3-small
+  chat_model: gpt-4o-mini  # economical, function-calling capable
+retrieval:
+  top_k: 5
+  mmr: false
+  score_threshold: null
+app:
+  title: Smart Librarian
