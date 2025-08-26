@@ -17,7 +17,7 @@ for that exact title. The UI is built with **Streamlit**.
 ---
 
 ## 🗂 Project Layout
-
+```
 RAGChatbot/
 ├─ app/
 │ ├─ ui/
@@ -45,7 +45,7 @@ RAGChatbot/
 ├─ requirements.txt
 ├─ README.md
 └─ .gitignore
-
+```
 
 ---
 
